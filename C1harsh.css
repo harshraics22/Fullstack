@@ -1,0 +1,10 @@
+P{
+    font-size: smaller;  
+    text-align: center;
+}
+
+p{
+    background-color: aquamarine;
+}
+
+<!-- EXTERNAL CSS    now we give in all  inline,intrnal ,external background color we see which color appear at last in background-->

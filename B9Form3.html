@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<h>, initial-scale=1.0">
+    <title>Form3</title>
+</head>
+<body>
+    <h2>Complex form</h2>
+    <form>
+    
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label for="Name"> Name:</label><br>
+    <input type="text" id="Name" name="name">
+    <br/>
+
+    <label for="Email Id"> Email:</label><br>
+    <input type="Email Id" id="Email Id" name="Email Id" >
+    <br/>
+
+    <label for="phone number"> Phone:</label><br>
+    <input type="tel" id="phone number" name="phone number">
+
+    <br/>
+    <br/>
+
+    <label for="datepicker">Date of Birth :</label>
+    <input type="date" id="datepicker">
+    <br/>
+    <br/>
+
+    <spam>Gender:</span>       <!--(we can use p tag or span both any one ...span se ek hi line me aate hai)-->
+
+        <label for="radio1">Male</label>
+    <input type="radio" id="radio1" name="radio1">
+                        <!-- name dono ka same hona chiye tabhi radio button me koi ek select hoga nahi to dono hoga-->
+    <label for="radio2">Female</label>
+    <input type="radio" id="radio2" name="radio1">
+    <br/>
+
+
+
+<label>Country</label>
+<select>
+        <option>India</option>
+        <option>Usa</option>    <!--Dropdown k liye ( select tag me ..Option value)-->
+        <option>UK</option>
+        <option>Iran</option>
+</select>
+<br/>
+<br/>
+
+<a href="https://www.google.com/"  target="-blank"> Google page open here</a>     <!--Anchor tag-->
+
+</fieldset>
+
+<fieldset>
+    <legend>Address</legend>
+    <label for="City"> City:</label><br>
+    <input type="text" id="City" name="City">
+    <br/>
+    <br/>
+
+    <label for="State"> State:</label><br>
+    <input type="text" id="State" name="State">
+    <br/>
+
+    <label for="Street"> Street:</label><br>
+    <input type="text" id="Street" name="Street">
+    <br/>
+
+    <label for="code"> Zip Code:</label><br>
+    <input type="text" id="code" name="code">
+
+</fieldset>
+
+<fieldset>
+    <legend>Other Information</legend>
+    <label for="textarea1">Comments:</label>
+    <br/>
+    <textarea name="textarea1" id="textarea1" col="20" rows="5"></textarea>
+    <label for="terms"> I agree to terms and condition</label>
+    <input type="checkbox" id="terms" name="terms">
+</fieldset>
+
+<input type="submit" value="submit application">
+
+</form>
+</body>
+</html>

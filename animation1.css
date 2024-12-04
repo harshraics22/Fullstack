@@ -1,0 +1,42 @@
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.container{
+    height:70vh;
+    background-color: aqua;
+
+
+}
+
+
+box{
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: AnimationOne;
+    animation-duration: 3s;
+    /* animation-timing-function: ease; */
+    animation-timing-function: ease-in;    /*ease-out*/
+    animation-iteration-count: 3;
+    animation-delay: 1s;
+}
+
+@keyframes AnimationOne{
+    from{
+        background-color: red;
+    }
+    to{
+        /* transform:translateX(600px); */
+        /* transform: rotate(360deg); */
+        /* transform:translateY(300px); */
+        transform: scale(2);
+        background-color: yellow;
+    }
+
+}

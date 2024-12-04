@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+
+    <h2>Job Application</h2>
+
+    <label for="Name"> Name:</label><br>
+    <input type="text" id="Name" name="name">
+    <br/>
+
+    <label for="Email Id"> Email:</label><br>
+    <input type="Email Id" id="Email Id" name="Email Id">
+    <br/>
+
+    <label for="phone number"> Phone:</label><br>
+    <input type="tel" id="phone number" name="phone number">
+    <br/>
+
+    <label for="fileupload"> Resume:</label><br>
+    <input type="file" id="fileupload" name="fileupload">   <!--very important alway remember-->
+
+    <br/>
+    <br/>
+
+    <label for="counter">Experience in years</label><br/>
+    <input type="number" id="counter" name="counter" min="0" max="50">
+
+    <br/>
+    <br/>
+
+    <fieldset>        <!--(fieldset write karne se output me rectangle box k under aayga sab html javascript css)-->
+        <legend>Skills</legend>      <!--(legend tag se rectangle box k upper skill written aayga )-->
+        <label for="checkbox1">HTML</label>
+        <input type="checkbox" id="checkbox1" name="checkbox1"><br/>
+
+        <label for="checkbox2">Javascript</label>
+        <input type="checkbox" id="checkbox2" name="checkbox2"><br/>
+
+        <label for="checkbox1">CSS</label>
+        <input type="checkbox" id="checkbox3" name="checkbox3">
+    </fieldset>
+
+    <br/>
+
+
+    <label for="Education Type">Highest Education</label>
+    <select name="Education Type" id="Education type">    <!-- here we create dropdown(dropdown k liye select tag ) value box from select type-->
+        <option value="Bachelor's degree">"Bachelor's degree"</option>
+        <option value="Master's degree">"Master's degree"</option>
+        <option value="PHD">"PHD"</option>
+        <option value="High school">"High School"</option>
+        <option value="Secondry high school">"Secondary high school"</option>
+    </select>
+
+        <br/>
+        <br/>
+
+        <fieldset>
+            <legend>Availability :</legend>
+
+            <label for="radio1">Full time</label>
+            <input type="radio" id="radio1" name="radio1">
+            <br/>
+
+            <label for="radio2">part time</label>
+            <input type="radio" id="radio2" name="radio1"> <!--when we put same name like in both radio1 up and down then in form one select-->
+            <br/>
+
+        </fieldset>
+
+
+        <label for="textarea1">Additional Comments:</label>
+    <br/>
+    <textarea name="textarea1" id="textarea1" col="30" rows="10"></textarea>
+    <br/>
+
+    <input type="submit" value="submit application">
+
+
+
+
+
+    </form>
+</body>
+</html>
